@@ -1,0 +1,23 @@
+package sec2;
+
+public class NullEx1 {
+
+	public static void main(String[] args) {
+		//int a null; ->기본형은 null값을 가질 수 없다
+		String b = null; //String는 기본형이 아니다
+		int c = 20;	//기본형은 ==나 !=비교가능
+		int d = 20;
+		
+	System.out.println("c == d:" +(c == d));
+	System.out.println("c != d:" +(c != d));
+	
+	
+	int[] e = {10,20,30};//참조형은 ==나 !=비교불가 ->참조형은 값비교가아니라 주소비교
+	int[] f = {10,20,30};
+	System.out.println("e == f:"+(e == f));
+	System.out.println("e != f:"+(e != f));
+	
+	System.out.println(e.equals(f)); //참조형은 이렇게 비교한다
+	}
+
+}

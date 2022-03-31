@@ -1,0 +1,6 @@
+package sec2;
+
+public enum Week {
+	//열거형->enum
+	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}

@@ -48,9 +48,9 @@ public class Car {
 	}
 	
 	public int computeMoney() { 
-		if (usetime,style) {
+		System.out.println("주차시간은"+usetime+"이며 주차요금은");
 			
 		}
 	}
 	
-}
+

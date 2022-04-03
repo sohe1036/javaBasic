@@ -8,6 +8,7 @@ public class Animal {
 	private int wings;
 	private boolean spine;
 	private int speed;
+	int data; //디폴트
 	Animal() {
 		this("치타");
 	}	

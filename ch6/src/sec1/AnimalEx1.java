@@ -9,7 +9,6 @@ public class AnimalEx1 {
 		bird1.setLegs(2);
 		bird1.setWings(2);
 		cat1.running(cat1.getName());
-		
 	}
 
 }

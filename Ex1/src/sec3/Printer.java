@@ -16,6 +16,6 @@ public class Printer {
 		System.out.println(println);
 	}
 	void println(String println) {
-		System.out.println(println);
+		System.out.println(println);			//메서드 오버로딩
 	}
 }

@@ -3,7 +3,7 @@ package sec3;
 public class Account1 {
 
 	private String ano;			//계좌번호
-	private String owner;		//
+	private String owner;		//예금주
 	private int balance;		//잔고
 	
 	

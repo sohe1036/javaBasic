@@ -3,14 +3,14 @@
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="576" key="DIALOG_X_ORIGIN"/>
-		<item value="174" key="DIALOG_Y_ORIGIN"/>
+		<item value="282" key="DIALOG_X_ORIGIN"/>
+		<item value="73" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="450" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH"/>
 		<item value="506" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT"/>
 		<item value="false" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION"/>
-		<item value="740" key="dialogHeight"/>
+		<item value="759" key="dialogHeight"/>
 		<item value="1440" key="dialogWidth"/>
 		<item value="true" key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE"/>
 		<list key="textEntries">
@@ -23,9 +23,9 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="com.tomato.exerd.ui.wizards.newEXerdWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.tomato.exerd.ui.newWizards.category"/>
+			<item value="com.objectaid.uml.new"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">

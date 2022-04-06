@@ -4,7 +4,7 @@ public class CellPhone {
 
 	String model;
 	String color;
-	String messge;
+	
 	
 	public void powerOn() {
 		System.out.println("전원을 켭니다.");
@@ -15,18 +15,16 @@ public class CellPhone {
 	public void bell() {
 		System.out.println("벨이 울립니다.");
 		}
-	public void sendVoice(String messge) {}
-	public void receiveVoice(String messge) {}
+	public void sendVoice(String messge) {
+		System.out.println("메시지를 전송했습니다. :"+messge);
+	}
+	public void receiveVoice(String messge) {
+		System.out.println("메시지가 도착했습니다. :"+messge);
+	}
 	public void hangUp() {
 		System.out.println("전화를 끊습니다.");
 		}
-	public String getMessge() {
-		return messge;
-	}
-	public void setMessge(String messge) {
-		this.messge = messge;
-		System.out.println(messge);
-	}
+
 
 	
 }

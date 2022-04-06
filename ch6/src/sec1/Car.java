@@ -49,7 +49,7 @@ public class Car {
 	
 	public int computeMoney() { 
 		System.out.println("주차시간은"+usetime+"이며 주차요금은");
-			
+			return this.usetime;
 		}
 	}
 	

@@ -1,7 +1,8 @@
 package sec1;
 
 public class TvRemote implements RemoteControl{
-	int voulum;
+	int volume;
+	int channal;
 	
 	@Override
 	public void turnOn() {
@@ -15,13 +16,18 @@ public class TvRemote implements RemoteControl{
 
 	@Override
 	public void setVolume(int volume) {
-		this.voulum = voulum;
+		this.volume = volume;
 	}
 
 	@Override
 	public int getVolume() {
-		return voulum;
+		return volume;
 	}
-
+	public void setchannal(int channal) {
+		this.channal = channal;
+	}
+	public int getChannal() {
+		return channal;
+	}
 	
 }

@@ -11,7 +11,7 @@ public class Array1 {
 		
 		int tot=0;
 		for (int i=0; i<=jum.length;i++) {
-			System.out.println(i+ "의 정수 = " +jum[i]);
+			System.out.println(i+ "번 정수 = " +jum[i]);
 		}
 
 	}

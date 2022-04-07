@@ -8,4 +8,15 @@
     <fullyQualifiedTypeName name="sec3.Printer1"/>
     <fullyQualifiedTypeName name="sec3.Account1"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="javax.naming.Name"/>
+    <fullyQualifiedTypeName name="sec1.A.B"/>
+    <fullyQualifiedTypeName name="sec1.C.D"/>
+    <fullyQualifiedTypeName name="sec2.A.B"/>
+    <fullyQualifiedTypeName name="sec2.A.S"/>
+    <fullyQualifiedTypeName name="sec5.Car.Tire"/>
+    <fullyQualifiedTypeName name="sec5.Car.Engine"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 </qualifiedTypeNameHistroy>

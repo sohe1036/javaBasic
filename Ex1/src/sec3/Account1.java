@@ -6,7 +6,7 @@ public class Account1 {
 	private String owner;		//예금주
 	private int balance;		//잔고
 	
-	
+	public Account1() { }
 	public Account1(String ano, String owner, int balance) {
 		this.ano = ano;
 		this.owner = owner;

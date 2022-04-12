@@ -1,27 +1,22 @@
 package sec3;
 
 public class Tire {
-	int maxRotation;		//최대회전수(타이어 수명)
-	int accPotation;		//누적회전수
-	String location;		//타이어 위치
-	
-	Tire (String location, int maxRotation){
-		this.location = location;
+	int maxRotation;	//최대 회전수
+	int accRotation;	//누적 회전수
+	String location;
+	Tire(String location, int maxRotation) {
 		this.maxRotation = maxRotation;
+		this.location = location;
 	}
-	
 	public boolean roll() {
-		++accPotation;			//누적되고있음
-		if(accPotation<maxRotation) {
-			System.out.println(location+"의 타이어 회전 바퀴수 :"+accPotation);		//매개변수 있으면 this.붙여야함
-			System.out.println(location+"타이어의 잔여 회전수"+(maxRotation-accPotation));
+		++accRotation;
+		if(accRotation<maxRotation) {
+			System.out.println(location+"의 타이어 회전 바퀴수 : "+accRotation);
+			System.out.println(location+" 타이어의 잔여 회전수 : "+(maxRotation-accRotation));
 			return true;
-		}else  {
-			System.out.println(location+"타이어 펑크");
+		} else {
+			System.out.println(location+" 타이어 펑크~!");
 			return false;
-		} 
-		
-		
+		}
 	}
-	
 }

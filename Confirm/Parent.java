@@ -1,4 +1,4 @@
-package sec4;
+package Confirm;
 
 public class Parent {
 	public String name;

@@ -1,4 +1,4 @@
-package sec4;
+package sec1;
 
 public class Parent {
 	public String name;
@@ -11,4 +11,5 @@ public class Parent {
 		this.name = name;
 		System.out.println("Parent(String name) call");
 	}
+	
 }

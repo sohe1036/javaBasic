@@ -1,21 +1,20 @@
 package sec4;
-
 import java.util.Arrays;
 import java.util.Random;
-
 public class RandomEx1 {
-
 	public static void main(String[] args) {
+		//Random.nextInt(종료값)+시작값
+		//Random.nextDouble() : 0~1 의 실수 반환
+		//Random.nextBoolean() : true 또는 false를 무작위로 반환
 		Random random = new Random(5);
-		int[] selNum = new int[6];		//배열선언
+		int[] selNum = new int[6];
 		for(int i=0;i<6;i++) {
-			selNum[i]= random.nextInt(45)+1;	//배열의 i번째는 랜덤 정수 1<=x<46
-			}
+			selNum[i] = random.nextInt(45)+1;
+		}
 		System.out.println();
-		Arrays.sort(selNum); 	//selNum배열을 정력해서
-		for(int sel : selNum) {		//sulNum의데이터를 sel에저장
+		Arrays.sort(selNum);
+		for(int sel : selNum) {
 			System.out.print(sel+"\t");
 		}
 	}
-
 }
